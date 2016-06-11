@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{c979a2ce-0e9e-4158-aa00-c29b3b7e874f}">
+        <property name="assetPath">
+            <value>Hellephant Death.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.268390022675737</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{27490c35-5a94-468a-9d60-19ea0936e896}</destination>
+        </relationship>
+    </object>
+</objects>

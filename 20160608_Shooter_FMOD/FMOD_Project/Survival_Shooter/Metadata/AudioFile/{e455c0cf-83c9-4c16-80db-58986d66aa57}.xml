@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{e455c0cf-83c9-4c16-80db-58986d66aa57}">
+        <property name="assetPath">
+            <value>ZomBunny Death.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.0365306122448981</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{27490c35-5a94-468a-9d60-19ea0936e896}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="AudioFile" id="{802ff984-28de-40a3-a4e8-bbdbda876071}">
+        <property name="assetPath">
+            <value>ZomBunny Hurt.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.44117913832199546</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{27490c35-5a94-468a-9d60-19ea0936e896}</destination>
+        </relationship>
+    </object>
+</objects>

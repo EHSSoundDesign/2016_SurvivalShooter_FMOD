@@ -1,0 +1,17 @@
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/UnityEngine.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/UnityEditor.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Mono.Cecil.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Unity.DataContract.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/lorenzosalvadori/Dropbox/EH_School/20160523_Shooter_FMOD/Temp/bin/Debug/Mono.Cecil.Mdb.dll

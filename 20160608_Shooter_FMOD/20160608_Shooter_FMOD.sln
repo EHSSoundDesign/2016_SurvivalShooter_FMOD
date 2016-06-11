@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20160608_Shooter_FMOD.CSharp.Plugins", "20160608_Shooter_FMOD.CSharp.Plugins.csproj", "{995DEE59-574F-DDC7-E723-A8255708FD5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20160608_Shooter_FMOD.CSharp", "20160608_Shooter_FMOD.CSharp.csproj", "{266587D4-9B39-EEC1-DEBD-0F0420180356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20160608_Shooter_FMOD.CSharp.Editor.Plugins", "20160608_Shooter_FMOD.CSharp.Editor.Plugins.csproj", "{2BFE64E4-9F91-BC1B-37F0-0CE63665C5AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20160608_Shooter_FMOD.CSharp.Editor", "20160608_Shooter_FMOD.CSharp.Editor.csproj", "{658CB412-284C-1F4B-C42C-59377395466C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{995DEE59-574F-DDC7-E723-A8255708FD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995DEE59-574F-DDC7-E723-A8255708FD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995DEE59-574F-DDC7-E723-A8255708FD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995DEE59-574F-DDC7-E723-A8255708FD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266587D4-9B39-EEC1-DEBD-0F0420180356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266587D4-9B39-EEC1-DEBD-0F0420180356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266587D4-9B39-EEC1-DEBD-0F0420180356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266587D4-9B39-EEC1-DEBD-0F0420180356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFE64E4-9F91-BC1B-37F0-0CE63665C5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFE64E4-9F91-BC1B-37F0-0CE63665C5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFE64E4-9F91-BC1B-37F0-0CE63665C5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFE64E4-9F91-BC1B-37F0-0CE63665C5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{658CB412-284C-1F4B-C42C-59377395466C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{658CB412-284C-1F4B-C42C-59377395466C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{658CB412-284C-1F4B-C42C-59377395466C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{658CB412-284C-1F4B-C42C-59377395466C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
