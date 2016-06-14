@@ -11,10 +11,12 @@ public class PlayerShooting : MonoBehaviour
     public FModController SND_Controller_Gun;
     EventInstance SND_Gun;
     [EventRef]
+    public string SND_ReloadString;
     public EventInstance SND_Reload;
-    public string p_ScoreValue;
 
-    ScoreManager scoreManagerProvider; //HUDCanvas > ScoreText
+    public string p_ScoreValue;
+    public int ScoreDelta;
+    public ScoreManager scoreManagerProvider;
     int scoreCurr=0;
 
     float timer;
@@ -24,7 +26,9 @@ public class PlayerShooting : MonoBehaviour
     ParticleSystem gunParticles;
     LineRenderer gunLine;
 
-	Light gunLight;
+    private PLAYBACK_STATE _state;
+
+    Light gunLight;
     float effectsDisplayTime = 0.2f;
 
 
@@ -44,6 +48,14 @@ public class PlayerShooting : MonoBehaviour
 
     }
 
+    void Start()
+    {
+        SND_Reload = RuntimeManager.CreateInstance(SND_ReloadString);
+        if (ScoreDelta == 0) {
+            ScoreDelta = 10;
+        }
+    }
+
     private int _scoreValue = 0;
     private int ScoreValue
     {
@@ -58,6 +70,7 @@ public class PlayerShooting : MonoBehaviour
             {
                 //update fmod & sound start
                 _scoreValue = value;
+                SND_Reload.start();
             }
         }
 
@@ -67,10 +80,11 @@ public class PlayerShooting : MonoBehaviour
     void Update ()
     {
         timer += Time.deltaTime;
-        // scoreCurr = quello che è
-        ScoreValue = scoreCurr % 50;
+        scoreCurr = ScoreManager.score;
+        ScoreValue = scoreCurr / ScoreDelta;
 
-        if (Input.GetButton ("Fire1") && timer >= timeBetweenBullets && Time.timeScale != 0) // && !ricarica
+        FMOD.RESULT res = SND_Reload.getPlaybackState(out _state);
+        if (Input.GetButton ("Fire1") && timer >= timeBetweenBullets && Time.timeScale != 0 && res == FMOD.RESULT.OK && _state != PLAYBACK_STATE.PLAYING)
         {
             
             Shoot ();

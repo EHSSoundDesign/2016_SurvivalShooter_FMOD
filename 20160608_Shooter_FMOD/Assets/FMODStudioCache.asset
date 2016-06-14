@@ -34,7 +34,7 @@ MonoBehaviour:
   - {fileID: 11479446}
   - {fileID: 11497308}
   MasterBankRef: {fileID: 11468814}
-  stringsBankWriteTime: 636009964660000000
+  stringsBankWriteTime: 636013380059179203
   cacheVersion: 1
 --- !u!114 &11400264
 MonoBehaviour:
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: 464d4f445f50726f6a6563745c537572766976616c5f53686f6f7465725c4275696c645c4465736b746f705c416d6269656e6365322e62616e6b
   lastModified: 0
@@ -359,6 +359,21 @@ MonoBehaviour:
   Name: 64756d6d79
   Min: 0
   Max: 1
+  Default: 0
+--- !u!114 &11409712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: playerHealth
+  Min: 0
+  Max: 100
   Default: 0
 --- !u!114 &11409812
 MonoBehaviour:
@@ -436,9 +451,24 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 11465760}
+  - {fileID: 11409712}
   MinDistance: 0
   MaxDistance: 0
+--- !u!114 &11414628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: dummy
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &11414668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,7 +708,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FMOD_Project\Survival_Shooter\Build\Desktop\Ambience2.bank
-  lastModified: 636009964660000000
+  lastModified: 636013380058999214
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -691,7 +721,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: 6576656e743a2f416d6269656e63652f76656e756573322f706c6163655f3034
   guid: 8d1c59efa9664c49b9d5ee462340203f
@@ -756,6 +786,21 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+--- !u!114 &11424950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: dummy
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &11425744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -780,7 +825,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Name: 64756d6d79
   Min: 0
@@ -1022,7 +1067,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 11456392}
+  - {fileID: 11414628}
   MinDistance: 1
   MaxDistance: 20
 --- !u!114 &11436124
@@ -1095,7 +1140,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 11468654}
+  - {fileID: 11453476}
   MinDistance: 1
   MaxDistance: 20
 --- !u!114 &11437844
@@ -1226,7 +1271,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 11403254}
+  - {fileID: 11451284}
   MinDistance: 1
   MaxDistance: 20
 --- !u!114 &11440650
@@ -1491,6 +1536,21 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+--- !u!114 &11451284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: dummy
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &11452350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1527,6 +1587,21 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+--- !u!114 &11453476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: dummy
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &11454762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2052,7 +2127,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 11424250}
+  - {fileID: 11424950}
   MinDistance: 1
   MaxDistance: 20
 --- !u!114 &11468654
@@ -2082,7 +2157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FMOD_Project\Survival_Shooter\Build\Desktop\Master Bank.bank
-  lastModified: 636009964660000000
+  lastModified: 636013380059089206
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -2122,6 +2197,21 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
+--- !u!114 &11472554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: dummy
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &11472814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2332,7 +2422,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 11459428}
+  - {fileID: 11472554}
   MinDistance: 1
   MaxDistance: 20
 --- !u!114 &11479456
@@ -2491,7 +2581,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Name: 64756d6d79
   Min: 0
@@ -2506,7 +2596,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: 6576656e743a2f416d6269656e63652f76656e756573322f706c6163655f3033
   guid: 4e01680a350b00488f0cfcbda723526a
@@ -2528,7 +2618,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: 6576656e743a2f456e656d6965732f5a6f6d62756e6e795f4465617468
   guid: 0118e78d4e40ce4da83f70a2b95214ff
@@ -2549,7 +2639,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
+  m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   Path: event:/Player/Player_Death
   guid: 4a9edb2ead655946acdc7f7169cbd5b3
@@ -2931,7 +3021,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 11448348}
+  - {fileID: 11498124}
   MinDistance: 1
   MaxDistance: 20
 --- !u!114 &11497608
@@ -2967,7 +3057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Path: FMOD_Project\Survival_Shooter\Build\Desktop\Ambience.bank
-  lastModified: 636009964660000000
+  lastModified: 636013380058909190
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -2987,6 +3077,21 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &11498124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  Name: dummy
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &11498510
 MonoBehaviour:
   m_ObjectHideFlags: 0

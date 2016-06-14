@@ -314,7 +314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &327914410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -837,6 +837,22 @@ Prefab:
       propertyPath: MusicParameterProvider
       value: 
       objectReference: {fileID: 944637372}
+    - target: {fileID: 11463730, guid: d5f3d3259db99438e9778e0272891067, type: 2}
+      propertyPath: scoreManagerProvider
+      value: 
+      objectReference: {fileID: 1537603114}
+    - target: {fileID: 11463730, guid: d5f3d3259db99438e9778e0272891067, type: 2}
+      propertyPath: SND_ReloadString
+      value: event:/Player/Player_Hit
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463730, guid: d5f3d3259db99438e9778e0272891067, type: 2}
+      propertyPath: p_ScoreValue
+      value: playerScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 11463730, guid: d5f3d3259db99438e9778e0272891067, type: 2}
+      propertyPath: ScoreDelta
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: d5f3d3259db99438e9778e0272891067, type: 2}
